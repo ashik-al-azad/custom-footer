@@ -1,0 +1,106 @@
+a{
+  text-decoration: none;
+}
+
+.footer-area{
+  background-color: #14ADF3;
+  padding: 80px 0;
+}
+
+.footer-area, .footer-area a{
+  color: #fff;
+}
+
+.footer-wid h3{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.social-links a{
+  font-size: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.footer-wid ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 25px;
+}
+
+.contact-info{
+  position: relative;
+  padding-left: 30px;
+}
+
+.contact-info i.fa{
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+
+.footer-subscribtion-form h4{
+  text-transform: uppercase;
+}
+
+.footer-subscribtion-form{
+  margin-top: 30px;
+}
+
+.footer-subscribtion-form input[type=email]{
+  border: none;
+  color: #000;
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.footer-subscribtion-form input[type=submit]{
+  color: #1E97D4;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.footer-subscribtion-form form{
+  margin-bottom: 15px;
+}
+
+.footer-subscribtion-form p{
+  font-size: 90%;
+}
+
+.copyright-area, .copyright-area a{
+  color: #b5b5b5;
+}
+
+.copyright-area ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.copyright-area li{
+  display: inline-block;
+}
+
+.copyright-area li::after{
+  content: '';
+  padding-left: 10px;
+  padding-right: 7px;
+}
+
+.copyright-area li:last-child::after{
+  display: none;
+}
+
+.copyright-area{
+  padding: 20px 0;
+  background-color: #000;
+}
